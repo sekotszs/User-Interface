@@ -65,57 +65,41 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-h1{
-	font-size:60px;
-	text-align:center;
-	display: inline-block;
-	color:black;
+
+body{
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 2%;
 }
+
 nav{
-	color: grey;
-	display: inline-block;
-
-}
-
-.content{
-	border: 1px solid grey; 
-	display: inline-block;
-	
-}
-
-#button{
-	
-		
-		border:1px solid grey;
-		color:grey;
-		padding: 10px 30px;
-		text-align: center;
-		display: inline-block;
-		font-size: 15px;
-	  
-}
-
-head{
 	display:inline-block;
+	width:120%;
 }
 
-.logo {
+a{
 	display: inline-block;
-	float: right;
-    padding: 10px;
-    padding-right: 50px;
+	width: 15%;
+	padding: 2%;
+	color: grey;
+	text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
-	display: inline-block;
-	text-align: center;
-	padding:30px;
-	margin:auto 30%;
+    display: inline-block;
+    text-align: center;
+    padding:30px;
+    margin:auto 30%;
 	width: 28%;
-}
-
-#codestuff{
-	float: right;
-    padding: 10px;
-    padding-right: 80px;	
 }
