@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border:0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -54,13 +54,192 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Sriracha', cursive;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Sriracha', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+
+.container{
+	margin: 0 auto;
+	width: 900px;
+}
+
+nav{
+	width: 70%;
+	display: inline-block;
+	vertical-align:top;
+}
+
+nav a{
+	width:16%;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: grey;
+	padding-top:10%;
+}
+
+.logo{
+	margin-left:60px;
+	padding-top:5%;
+}
+
+.start{
+	text-align: center;
+	width:450px;
+	display: inline-block;
+	padding: 25px;
+	margin-top: 70px;
+	vertical-align: top;
+}
+
+#codestuff{
+	display:inline-block;
+	padding:30px;
+	margin-bottom: 50px;
+	margin-top:30px;
+}
+
+section h1{
+	font-size:75px;
+}
+
+section a {
+	display:inline-block;
+	border: 1px solid black;
+	text-decoration: none;
+	padding: 5px 25px;
+	font-size: 15px;
+	color:black;
+}
+ .info{
+	 border-bottom: 1px solid black;
+	 border-top: 1px solid black;
+ }
+.one{
+	display: inline-block;
+	width:400px;
+	padding:40px 0px;
+}
+
+.two{
+	display: inline-block;
+	width:250px;
+	padding:30px 40px;
+}
+
+footer{
+	margin-top:40px;
+	margin-left:3%;
+}
+ #end{
+	 display:inline-block;
+	 margin-left: 40%;
+	 margin-bottom: 70px;
+	 margin-top:50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container{
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 2%;
+}
+
+nav{
+	display:inline-block;
+	width:120%;
+}
+
+a{
+	display: inline-block;
+	width: 15%;
+	padding: 2%;
+	color: grey;
+	text-decoration: none;
+}
+
+.logo{
+	display:inline-block;
+	width: 2%;
+	margin-left:15%;
+
+}
+
+.IOD{
+	display:inline-block;
+	width: 25%;
+	margin-left:25%;
+}
+
+h1{
+
+	display:inline-block;
+	width: 25%;
+	margin-left:10%;
+	text-align: center;
+	font-size: 70px;
+}
+
+
+#button{
+	display:inline-block;
+	margin-right:22%;
+	border: 1px solid grey;
+	padding:1% 35%;
+	text-align: center;
+
+}
+
+#codestuff{
+	display:inline-block;
+	margin-left:180%;
+
+}
+
+.info{
+
+}
+.one{
+
+}
+
+.two{
+
+}
+
+.three{
+
+}
+
+.four{
+
+}
+
+.five{
+
+}
+/*
+
+
+
+
+
