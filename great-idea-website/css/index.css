@@ -66,7 +66,98 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
-body{
+.container{
+	margin: 0 auto;
+	width: 900px;
+}
+
+nav{
+	width: 70%;
+	display: inline-block;
+	vertical-align:top;
+}
+
+nav a{
+	width:16%;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: grey;
+	padding-top:10%;
+}
+
+.logo{
+	margin-left:60px;
+	padding-top:5%;
+}
+
+.start{
+	text-align: center;
+	width:450px;
+	display: inline-block;
+	padding: 25px;
+	margin-top: 70px;
+	vertical-align: top;
+}
+
+#codestuff{
+	display:inline-block;
+	padding:30px;
+	margin-bottom: 50px;
+	margin-top:30px;
+}
+
+section h1{
+	font-size:75px;
+}
+
+section a {
+	display:inline-block;
+	border: 1px solid black;
+	text-decoration: none;
+	padding: 5px 25px;
+	font-size: 15px;
+	color:black;
+}
+ .info{
+	 border-bottom: 1px solid black;
+	 border-top: 1px solid black;
+ }
+.one{
+	display: inline-block;
+	width:400px;
+	padding:40px 0px;
+}
+
+.two{
+	display: inline-block;
+	width:250px;
+	padding:30px 40px;
+}
+
+footer{
+	margin-top:40px;
+}
+ #end{
+	 display:inline-block;
+	 margin-left: 40%;
+	 margin-bottom: 70px;
+	 margin-top:50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container{
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-top: 2%;
@@ -87,8 +178,8 @@ a{
 
 .logo{
 	display:inline-block;
-	width: 25%;
-	margin-left:95%;
+	width: 2%;
+	margin-left:15%;
 
 }
 
@@ -145,16 +236,9 @@ h1{
 .five{
 
 }
+/*
 
 
 
 
 
-
-footer {
-    display: inline-block;
-    text-align: center;
-    padding:30px;
-    margin:auto 30%;
-	width: 28%;
-}
